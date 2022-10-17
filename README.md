@@ -7,6 +7,7 @@ When a user post a tweet quoting the bot account followed by a text message, it 
 ## Prerequistes
 
 > NodeJs >= 15
+
 > MongoDB >= 4
 
 ## Screenshots

@@ -35,6 +35,7 @@ Create a new .env file based on env.default on the root folder and set up your c
 | DDBB_USER           | MongoDB username             | Left it empty if is not set                                |
 | DDBB_PASS           | MongoDB user password        | Left it empty if is not set                                |
 | DDBB_NAME           | Name of the MongoDB database | pokeGenAI                                                  |
+| REPLICATE_TOKEN     | Replicate.com API TOKEN      | (from [Replicate.com](https://replicate.com/))             |
 | API_KEY             | Twitter consumer key         | (from [Twitter Developers](http://developer.twitter.com/)) |
 | API_SECRET          | Twitter consumer secret      | (from [Twitter Developers](http://developer.twitter.com/)) |
 | BEARER              | Twitter access token         | (from [Twitter Developers](http://developer.twitter.com/)) |

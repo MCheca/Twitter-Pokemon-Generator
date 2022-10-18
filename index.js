@@ -41,7 +41,7 @@ const main = async () => {
           originalImage,
         };
 
-        dbCollection.insertOne(tweetData);
+        await dbCollection.insertOne(tweetData);
       }
     } catch (error) {
       console.log('Error processing tweet\n', error);
@@ -57,7 +57,7 @@ const generateResponse = async (prompt, user) => {
   const { parsedImage, originalImage } = await generateImage(translatedPrompt);
 
   const tweetInfo = await postTweet(
-    `"${prompt}"\n\n🤖 Prompt by @${user}`,
+    `${prompt}\n\n🤖 Prompt by @${user}`,
     parsedImage
   );
 

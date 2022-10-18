@@ -24,7 +24,7 @@ const main = async () => {
           createdAt: new Date(tweet.created_at),
           tweetId: tweet.id.toString(),
           tweetIdStr: tweet.id_str,
-          text: tweet.text.replaceAll(`${accountName} `, ''),
+          text: tweet.text.replaceAll(`${accountName}`, ''),
           user: {
             userId,
             userScreenName: tweet.user.screen_name,

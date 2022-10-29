@@ -17,7 +17,7 @@ const generateImage = async (prompt) => {
     guidance_scale: 7.8,
   });
 
-  if (true || modelPrediction) {
+  if (modelPrediction) {
     const parsedImage = await addTextOnImage(
       modelPrediction[0],
       process.env.ACCOUNT_USERNAME
